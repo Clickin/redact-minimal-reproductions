@@ -1,0 +1,22 @@
+{
+  "name": "redact-error-boundary-repro",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.1.1",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "react": "vite --mode react --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@tanstack/redact": "0.2.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "6.1.1",
+    "vite": "8.0.12"
+  },
+  "stackblitz": {
+    "startCommand": "pnpm start"
+  }
+}
