@@ -1,5 +1,7 @@
 # An error in an inner fallback should reach the outer boundary
 
+The matching fix and regression test already exist in open [TanStack/redact PR #43](https://github.com/TanStack/redact/pull/43). This reproduction supports that PR; it is not a competing implementation.
+
 1. Run `pnpm install` and `pnpm start` (StackBlitz starts automatically).
 2. Open the preview console, then click **Trigger error**.
 3. Expected: `Outer caught: original child error`.
